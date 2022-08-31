@@ -5,7 +5,9 @@ console.log(frase)
 
 frase = `Jorge tem uma casa verde e com portão azul, com os dizeres: ${gatoSair.toUpperCase()} `
 let cor = frase.replace("verde", "rosa").replace("azul", "laranja")
-let cores = cor.includes("verde" || "laranja")
+let verde = cor.includes("verde")
+let laranja = cor.includes("laranja")
 
 console.log(cor)
-console.log(cores)
+console.log(verde)
+console.log(laranja)
